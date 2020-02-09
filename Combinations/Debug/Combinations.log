@@ -1,0 +1,14 @@
+﻿  Source.cpp
+C:\Users\Muhammad Talib\source\repos\Combinations\Combinations\Source.cpp(15,69): error C2664: 'void combinationUtil(std::string [],std::string [],int,int,int,int,std::string [],int &)': cannot convert argument 8 from 'int *' to 'int &'
+C:\Users\Muhammad Talib\source\repos\Combinations\Combinations\Source.cpp(4,6): message : see declaration of 'combinationUtil'
+C:\Users\Muhammad Talib\source\repos\Combinations\Combinations\Source.cpp(29,26): error C2100: illegal indirection
+C:\Users\Muhammad Talib\source\repos\Combinations\Combinations\Source.cpp(30,48): error C2100: illegal indirection
+C:\Users\Muhammad Talib\source\repos\Combinations\Combinations\Source.cpp(30,46): error C2088: '<<': illegal for class
+C:\Users\Muhammad Talib\source\repos\Combinations\Combinations\Source.cpp(32,35): error C2100: illegal indirection
+C:\Users\Muhammad Talib\source\repos\Combinations\Combinations\Source.cpp(32,32): error C2088: '<<': illegal for class
+C:\Users\Muhammad Talib\source\repos\Combinations\Combinations\Source.cpp(42,31): error C2100: illegal indirection
+C:\Users\Muhammad Talib\source\repos\Combinations\Combinations\Source.cpp(42,28): error C2088: '<<': illegal for class
+C:\Users\Muhammad Talib\source\repos\Combinations\Combinations\Source.cpp(43,84): error C2668: 'combinationUtil': ambiguous call to overloaded function
+C:\Users\Muhammad Talib\source\repos\Combinations\Combinations\Source.cpp(24,6): message : could be 'void combinationUtil(std::string [],std::string [],int,int,int,int,std::string [],int)'
+C:\Users\Muhammad Talib\source\repos\Combinations\Combinations\Source.cpp(4,6): message : or       'void combinationUtil(std::string [],std::string [],int,int,int,int,std::string [],int &)'
+C:\Users\Muhammad Talib\source\repos\Combinations\Combinations\Source.cpp(43,84): message : while trying to match the argument list '(std::string [], std::string [], int, int, int, int, std::string [], int)'
